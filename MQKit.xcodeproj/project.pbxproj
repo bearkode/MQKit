@@ -1,0 +1,1330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E37778D19E2655F00150A99 /* MQDataArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E37778B19E2655F00150A99 /* MQDataArray.h */; };
+		2E37778E19E2655F00150A99 /* MQDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37778C19E2655F00150A99 /* MQDataArray.m */; };
+		2E37778F19E2655F00150A99 /* MQDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37778C19E2655F00150A99 /* MQDataArray.m */; };
+		2E37779219E2684700150A99 /* MQDataArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37779119E2684700150A99 /* MQDataArrayTests.m */; };
+		2E37779519E2703700150A99 /* MQConnectHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E37779319E2703700150A99 /* MQConnectHeader.h */; };
+		2E37779619E2703700150A99 /* MQConnectHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37779419E2703700150A99 /* MQConnectHeader.m */; };
+		2E37779719E2703700150A99 /* MQConnectHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37779419E2703700150A99 /* MQConnectHeader.m */; };
+		2E37779B19E2737000150A99 /* MQVariableHeader+Privates.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E37779919E2737000150A99 /* MQVariableHeader+Privates.h */; };
+		2E3777A019E2747800150A99 /* MQConnectHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37779F19E2747800150A99 /* MQConnectHeaderTests.m */; };
+		2E3777A819E3A83B00150A99 /* MQMessageIDHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777A719E3A83B00150A99 /* MQMessageIDHeaderTests.m */; };
+		2E3777AA19E3A9AA00150A99 /* MQPubRelMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777A919E3A9AA00150A99 /* MQPubRelMessageTests.m */; };
+		2E3777AD19E3B96600150A99 /* MQConnectPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3777AB19E3B96600150A99 /* MQConnectPayload.h */; };
+		2E3777AE19E3B96600150A99 /* MQConnectPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777AC19E3B96600150A99 /* MQConnectPayload.m */; };
+		2E3777AF19E3B96600150A99 /* MQConnectPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777AC19E3B96600150A99 /* MQConnectPayload.m */; };
+		2E3777B319E3B98700150A99 /* MQPublishPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3777B119E3B98700150A99 /* MQPublishPayload.h */; };
+		2E3777B419E3B98700150A99 /* MQPublishPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777B219E3B98700150A99 /* MQPublishPayload.m */; };
+		2E3777B519E3B98700150A99 /* MQPublishPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777B219E3B98700150A99 /* MQPublishPayload.m */; };
+		2E3777B919E3B9B500150A99 /* MQSubscribePayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3777B719E3B9B500150A99 /* MQSubscribePayload.h */; };
+		2E3777BA19E3B9B500150A99 /* MQSubscribePayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777B819E3B9B500150A99 /* MQSubscribePayload.m */; };
+		2E3777BB19E3B9B500150A99 /* MQSubscribePayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777B819E3B9B500150A99 /* MQSubscribePayload.m */; };
+		2E3777BF19E3B9D900150A99 /* MQSubAckPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3777BD19E3B9D900150A99 /* MQSubAckPayload.h */; };
+		2E3777C019E3B9D900150A99 /* MQSubAckPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777BE19E3B9D900150A99 /* MQSubAckPayload.m */; };
+		2E3777C119E3B9D900150A99 /* MQSubAckPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777BE19E3B9D900150A99 /* MQSubAckPayload.m */; };
+		2E3777C519E3BA1500150A99 /* MQUnsubscribePayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3777C319E3BA1500150A99 /* MQUnsubscribePayload.h */; };
+		2E3777C619E3BA1500150A99 /* MQUnsubscribePayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777C419E3BA1500150A99 /* MQUnsubscribePayload.m */; };
+		2E3777C719E3BA1500150A99 /* MQUnsubscribePayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777C419E3BA1500150A99 /* MQUnsubscribePayload.m */; };
+		2E3777CB19E3BC6C00150A99 /* MQPayload+Privates.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3777C919E3BC6C00150A99 /* MQPayload+Privates.h */; };
+		2E3777D019E3BF5000150A99 /* MQConnectPayloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777CF19E3BF5000150A99 /* MQConnectPayloadTests.m */; };
+		2E3777D219E3E0BF00150A99 /* MQPublishPayloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777D119E3E0BF00150A99 /* MQPublishPayloadTests.m */; };
+		2E3777D519E3E46400150A99 /* MQConnAckHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3777D319E3E46400150A99 /* MQConnAckHeader.h */; };
+		2E3777D619E3E46400150A99 /* MQConnAckHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777D419E3E46400150A99 /* MQConnAckHeader.m */; };
+		2E3777D719E3E46400150A99 /* MQConnAckHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777D419E3E46400150A99 /* MQConnAckHeader.m */; };
+		2E3777DB19E3E48800150A99 /* MQPublishHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3777D919E3E48800150A99 /* MQPublishHeader.h */; };
+		2E3777DC19E3E48800150A99 /* MQPublishHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777DA19E3E48800150A99 /* MQPublishHeader.m */; };
+		2E3777DD19E3E48800150A99 /* MQPublishHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3777DA19E3E48800150A99 /* MQPublishHeader.m */; };
+		2E37780519E3E5C700150A99 /* MQMessageIDHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E37780319E3E5C700150A99 /* MQMessageIDHeader.h */; };
+		2E37780619E3E5C700150A99 /* MQMessageIDHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37780419E3E5C700150A99 /* MQMessageIDHeader.m */; };
+		2E37780719E3E5C700150A99 /* MQMessageIDHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37780419E3E5C700150A99 /* MQMessageIDHeader.m */; };
+		2E37780A19E4BE0500150A99 /* MQConnAckHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37780919E4BE0500150A99 /* MQConnAckHeaderTests.m */; };
+		2E37780C19E4C0F000150A99 /* MQConnAckMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37780B19E4C0F000150A99 /* MQConnAckMessageTests.m */; };
+		2E37780E19E4C53B00150A99 /* MQPublishHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37780D19E4C53B00150A99 /* MQPublishHeaderTests.m */; };
+		2E37781119E4CE7000150A99 /* MQMessageIDGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E37780F19E4CE7000150A99 /* MQMessageIDGenerator.h */; };
+		2E37781219E4CE7000150A99 /* MQMessageIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37781019E4CE7000150A99 /* MQMessageIDGenerator.m */; };
+		2E37781319E4CE7000150A99 /* MQMessageIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37781019E4CE7000150A99 /* MQMessageIDGenerator.m */; };
+		2E37781619E4D11D00150A99 /* MQMessageIDGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E37781519E4D11D00150A99 /* MQMessageIDGeneratorTests.m */; };
+		2E39470219D52045002FADB9 /* MQPublishMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E39470119D52044002FADB9 /* MQPublishMessageTests.m */; };
+		2E39470419D56555002FADB9 /* MQSubscribeMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E39470319D56555002FADB9 /* MQSubscribeMessageTests.m */; };
+		2E39475319D91D71002FADB9 /* MQSubAckMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E39475219D91D71002FADB9 /* MQSubAckMessageTests.m */; };
+		2E3A774219E50B2E00AFBA21 /* MQSubscribePayloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A774119E50B2E00AFBA21 /* MQSubscribePayloadTests.m */; };
+		2E3A777019E7EC1E00AFBA21 /* MQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A776F19E7EC1E00AFBA21 /* MQTTManager.m */; };
+		2E938E3019D0001800A1C30F /* MQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E2F19D0001800A1C30F /* MQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E4519D0009600A1C30F /* MQFixedHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E4319D0009600A1C30F /* MQFixedHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E4619D0009600A1C30F /* MQFixedHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E4419D0009600A1C30F /* MQFixedHeader.m */; };
+		2E938E4719D0009600A1C30F /* MQFixedHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E4419D0009600A1C30F /* MQFixedHeader.m */; };
+		2E938E4A19D006B500A1C30F /* MQFixedHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E4919D006B500A1C30F /* MQFixedHeaderTests.m */; };
+		2E938E4D19D0129D00A1C30F /* MQUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E4B19D0129D00A1C30F /* MQUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E4E19D0129D00A1C30F /* MQUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E4C19D0129D00A1C30F /* MQUtils.m */; };
+		2E938E4F19D0129D00A1C30F /* MQUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E4C19D0129D00A1C30F /* MQUtils.m */; };
+		2E938E5119D013AA00A1C30F /* MQUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E5019D013AA00A1C30F /* MQUtilsTests.m */; };
+		2E938E5419D014B800A1C30F /* MQVariableHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E5219D014B800A1C30F /* MQVariableHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E5519D014B800A1C30F /* MQVariableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E5319D014B800A1C30F /* MQVariableHeader.m */; };
+		2E938E5619D014B800A1C30F /* MQVariableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E5319D014B800A1C30F /* MQVariableHeader.m */; };
+		2E938E5919D0175E00A1C30F /* MQPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E5719D0175E00A1C30F /* MQPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E5A19D0175E00A1C30F /* MQPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E5819D0175E00A1C30F /* MQPayload.m */; };
+		2E938E5B19D0175E00A1C30F /* MQPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E5819D0175E00A1C30F /* MQPayload.m */; };
+		2E938E6919D01D9800A1C30F /* MQMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E6719D01D9800A1C30F /* MQMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E6A19D01D9800A1C30F /* MQMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E6819D01D9800A1C30F /* MQMessage.m */; };
+		2E938E6B19D01D9800A1C30F /* MQMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E6819D01D9800A1C30F /* MQMessage.m */; };
+		2E938E6E19D01DFA00A1C30F /* MQConnectMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E6C19D01DFA00A1C30F /* MQConnectMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E6F19D01DFA00A1C30F /* MQConnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E6D19D01DFA00A1C30F /* MQConnectMessage.m */; };
+		2E938E7019D01DFA00A1C30F /* MQConnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E6D19D01DFA00A1C30F /* MQConnectMessage.m */; };
+		2E938E7319D01E5F00A1C30F /* MQConnAckMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E7119D01E5F00A1C30F /* MQConnAckMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E7419D01E5F00A1C30F /* MQConnAckMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E7219D01E5F00A1C30F /* MQConnAckMessage.m */; };
+		2E938E7519D01E5F00A1C30F /* MQConnAckMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E7219D01E5F00A1C30F /* MQConnAckMessage.m */; };
+		2E938E7819D01EAD00A1C30F /* MQPublishMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E7619D01EAD00A1C30F /* MQPublishMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E7919D01EAD00A1C30F /* MQPublishMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E7719D01EAD00A1C30F /* MQPublishMessage.m */; };
+		2E938E7A19D01EAD00A1C30F /* MQPublishMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E7719D01EAD00A1C30F /* MQPublishMessage.m */; };
+		2E938E7D19D01EF600A1C30F /* MQPubAckMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E7B19D01EF600A1C30F /* MQPubAckMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E7E19D01EF600A1C30F /* MQPubAckMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E7C19D01EF600A1C30F /* MQPubAckMessage.m */; };
+		2E938E7F19D01EF600A1C30F /* MQPubAckMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E7C19D01EF600A1C30F /* MQPubAckMessage.m */; };
+		2E938E8219D01F3A00A1C30F /* MQPubRecMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E8019D01F3A00A1C30F /* MQPubRecMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E8319D01F3A00A1C30F /* MQPubRecMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E8119D01F3A00A1C30F /* MQPubRecMessage.m */; };
+		2E938E8419D01F3A00A1C30F /* MQPubRecMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E8119D01F3A00A1C30F /* MQPubRecMessage.m */; };
+		2E938E8719D01F7D00A1C30F /* MQPubRelMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E8519D01F7D00A1C30F /* MQPubRelMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E8819D01F7D00A1C30F /* MQPubRelMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E8619D01F7D00A1C30F /* MQPubRelMessage.m */; };
+		2E938E8919D01F7D00A1C30F /* MQPubRelMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E8619D01F7D00A1C30F /* MQPubRelMessage.m */; };
+		2E938E8C19D01FB800A1C30F /* MQPubCompMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E8A19D01FB800A1C30F /* MQPubCompMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E8D19D01FB800A1C30F /* MQPubCompMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E8B19D01FB800A1C30F /* MQPubCompMessage.m */; };
+		2E938E8E19D01FB800A1C30F /* MQPubCompMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E8B19D01FB800A1C30F /* MQPubCompMessage.m */; };
+		2E938E9119D0200200A1C30F /* MQSubscribeMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E8F19D0200200A1C30F /* MQSubscribeMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E9219D0200200A1C30F /* MQSubscribeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E9019D0200200A1C30F /* MQSubscribeMessage.m */; };
+		2E938E9319D0200200A1C30F /* MQSubscribeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E9019D0200200A1C30F /* MQSubscribeMessage.m */; };
+		2E938E9619D0205100A1C30F /* MQSubAckMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E9419D0205100A1C30F /* MQSubAckMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E9719D0205100A1C30F /* MQSubAckMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E9519D0205100A1C30F /* MQSubAckMessage.m */; };
+		2E938E9819D0205100A1C30F /* MQSubAckMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E9519D0205100A1C30F /* MQSubAckMessage.m */; };
+		2E938E9B19D0209700A1C30F /* MQUnsubscribeMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E9919D0209700A1C30F /* MQUnsubscribeMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938E9C19D0209700A1C30F /* MQUnsubscribeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E9A19D0209700A1C30F /* MQUnsubscribeMessage.m */; };
+		2E938E9D19D0209700A1C30F /* MQUnsubscribeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E9A19D0209700A1C30F /* MQUnsubscribeMessage.m */; };
+		2E938EA019D020DE00A1C30F /* MQUnsubAckMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938E9E19D020DE00A1C30F /* MQUnsubAckMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938EA119D020DE00A1C30F /* MQUnsubAckMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E9F19D020DE00A1C30F /* MQUnsubAckMessage.m */; };
+		2E938EA219D020DE00A1C30F /* MQUnsubAckMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938E9F19D020DE00A1C30F /* MQUnsubAckMessage.m */; };
+		2E938EA619D0214700A1C30F /* MQPingReqMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938EA419D0214700A1C30F /* MQPingReqMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938EA719D0214700A1C30F /* MQPingReqMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938EA519D0214700A1C30F /* MQPingReqMessage.m */; };
+		2E938EA819D0214700A1C30F /* MQPingReqMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938EA519D0214700A1C30F /* MQPingReqMessage.m */; };
+		2E938EAB19D021CD00A1C30F /* MQPingRespMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938EA919D021CD00A1C30F /* MQPingRespMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938EAC19D021CD00A1C30F /* MQPingRespMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938EAA19D021CD00A1C30F /* MQPingRespMessage.m */; };
+		2E938EAD19D021CD00A1C30F /* MQPingRespMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938EAA19D021CD00A1C30F /* MQPingRespMessage.m */; };
+		2E938EB019D0220C00A1C30F /* MQDisconnectMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E938EAE19D0220C00A1C30F /* MQDisconnectMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E938EB119D0220C00A1C30F /* MQDisconnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938EAF19D0220C00A1C30F /* MQDisconnectMessage.m */; };
+		2E938EB219D0220C00A1C30F /* MQDisconnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E938EAF19D0220C00A1C30F /* MQDisconnectMessage.m */; };
+		2EA5755419D1049F000353A4 /* MQConnectFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5755219D1049F000353A4 /* MQConnectFlags.h */; };
+		2EA5755519D1049F000353A4 /* MQConnectFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5755319D1049F000353A4 /* MQConnectFlags.m */; };
+		2EA5755619D1049F000353A4 /* MQConnectFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5755319D1049F000353A4 /* MQConnectFlags.m */; };
+		2EA5755819D1066C000353A4 /* MQConnectFlagsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5755719D1066C000353A4 /* MQConnectFlagsTests.m */; };
+		2EA5755B19D12F31000353A4 /* MQString.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5755919D12F31000353A4 /* MQString.h */; };
+		2EA5755C19D12F31000353A4 /* MQString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5755A19D12F31000353A4 /* MQString.m */; };
+		2EA5755D19D12F31000353A4 /* MQString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5755A19D12F31000353A4 /* MQString.m */; };
+		2EA5756019D12F41000353A4 /* MQInt16.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5755E19D12F41000353A4 /* MQInt16.h */; };
+		2EA5756119D12F41000353A4 /* MQInt16.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5755F19D12F41000353A4 /* MQInt16.m */; };
+		2EA5756219D12F41000353A4 /* MQInt16.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5755F19D12F41000353A4 /* MQInt16.m */; };
+		2EA5756519D12F4C000353A4 /* MQInt8.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5756319D12F4C000353A4 /* MQInt8.h */; };
+		2EA5756619D12F4C000353A4 /* MQInt8.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5756419D12F4C000353A4 /* MQInt8.m */; };
+		2EA5756719D12F4C000353A4 /* MQInt8.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5756419D12F4C000353A4 /* MQInt8.m */; };
+		2EA5756A19D132AE000353A4 /* MQDataRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5756919D132AE000353A4 /* MQDataRepresentable.h */; };
+		2EA5757019D1387A000353A4 /* MQByteRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5756F19D1387A000353A4 /* MQByteRepresentable.h */; };
+		2EA5757319D1392D000353A4 /* MQFixedHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5757119D1392D000353A4 /* MQFixedHeaderField.h */; };
+		2EA5757419D1392D000353A4 /* MQFixedHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5757219D1392D000353A4 /* MQFixedHeaderField.m */; };
+		2EA5757519D1392D000353A4 /* MQFixedHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5757219D1392D000353A4 /* MQFixedHeaderField.m */; };
+		2EA5758319D14EEA000353A4 /* MQStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5758219D14EEA000353A4 /* MQStringTests.m */; };
+		2EA5758519D15022000353A4 /* MQInt16Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5758419D15022000353A4 /* MQInt16Tests.m */; };
+		2EA5758719D151F7000353A4 /* MQInt8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5758619D151F7000353A4 /* MQInt8Tests.m */; };
+		2EA5758919D154A4000353A4 /* MQVariableHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5758819D154A4000353A4 /* MQVariableHeaderTests.m */; };
+		2EA5758B19D15892000353A4 /* MQMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5758A19D15892000353A4 /* MQMessageTests.m */; };
+		2EA5758D19D159E2000353A4 /* MQConnectMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5758C19D159E2000353A4 /* MQConnectMessageTests.m */; };
+		2EA5759019D15D60000353A4 /* MQPayloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5758F19D15D60000353A4 /* MQPayloadTests.m */; };
+		2EA5759319D16CAC000353A4 /* MQPacketUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5759119D16CAC000353A4 /* MQPacketUtils.h */; };
+		2EA5759419D16CAC000353A4 /* MQPacketUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5759219D16CAC000353A4 /* MQPacketUtils.m */; };
+		2EA5759519D16CAC000353A4 /* MQPacketUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5759219D16CAC000353A4 /* MQPacketUtils.m */; };
+		2EA5759719D16DF4000353A4 /* MQPacketUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5759619D16DF4000353A4 /* MQPacketUtilsTests.m */; };
+		2EA5759A19D16E4B000353A4 /* NSData+MQAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA5759819D16E4B000353A4 /* NSData+MQAdditions.h */; };
+		2EA5759B19D16E4B000353A4 /* NSData+MQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5759919D16E4B000353A4 /* NSData+MQAdditions.m */; };
+		2EA5759C19D16E4B000353A4 /* NSData+MQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5759919D16E4B000353A4 /* NSData+MQAdditions.m */; };
+		2EC763B719D93F5300275C02 /* MQDisconnectMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC763B619D93F5300275C02 /* MQDisconnectMessageTests.m */; };
+		2EC763BB19D9432100275C02 /* MQPingReqMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC763BA19D9432100275C02 /* MQPingReqMessageTests.m */; };
+		2EC763BD19D9456E00275C02 /* MQPingRespMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC763BC19D9456E00275C02 /* MQPingRespMessageTests.m */; };
+		2EC763BF19DA912600275C02 /* MQPubAckMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC763BE19DA912600275C02 /* MQPubAckMessageTests.m */; };
+		2EC763C119DA95BF00275C02 /* MQPubRecMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC763C019DA95BF00275C02 /* MQPubRecMessageTests.m */; };
+		2EC763C319DA9C2500275C02 /* MQPubCompMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC763C219DA9C2500275C02 /* MQPubCompMessageTests.m */; };
+		2EFFD30B19D2864D0042FB1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD30A19D2864D0042FB1A /* main.m */; };
+		2EFFD30E19D2864D0042FB1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD30D19D2864D0042FB1A /* AppDelegate.m */; };
+		2EFFD31019D2864D0042FB1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFFD30F19D2864D0042FB1A /* Images.xcassets */; };
+		2EFFD31319D2864D0042FB1A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFFD31119D2864D0042FB1A /* MainMenu.xib */; };
+		2EFFD31F19D2864D0042FB1A /* MQAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD31E19D2864D0042FB1A /* MQAppTests.m */; };
+		2EFFD32A19D29BE70042FB1A /* NEStreamHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD32919D29BE70042FB1A /* NEStreamHandler.m */; };
+		2EFFD32D19D2A57E0042FB1A /* NEBufferedStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD32C19D2A57E0042FB1A /* NEBufferedStream.m */; };
+		2EFFD33019D2A8A80042FB1A /* NEInputBufferedStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD32F19D2A8A80042FB1A /* NEInputBufferedStream.m */; };
+		2EFFD33319D2AB940042FB1A /* NEOutputBufferedStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD33219D2AB940042FB1A /* NEOutputBufferedStream.m */; };
+		2EFFD33619D2F0D40042FB1A /* libMQKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E938E2C19D0001800A1C30F /* libMQKit.a */; };
+		2EFFD33919D2F4E00042FB1A /* MQMessageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFFD33719D2F4E00042FB1A /* MQMessageParser.h */; };
+		2EFFD33A19D2F4E00042FB1A /* MQMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD33819D2F4E00042FB1A /* MQMessageParser.m */; };
+		2EFFD33B19D2F4E00042FB1A /* MQMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD33819D2F4E00042FB1A /* MQMessageParser.m */; };
+		2EFFD33E19D2F55D0042FB1A /* MQParseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFFD33C19D2F55D0042FB1A /* MQParseResult.h */; };
+		2EFFD33F19D2F55D0042FB1A /* MQParseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD33D19D2F55D0042FB1A /* MQParseResult.m */; };
+		2EFFD34019D2F55D0042FB1A /* MQParseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD33D19D2F55D0042FB1A /* MQParseResult.m */; };
+		2EFFD34D19D3D7910042FB1A /* MQParserResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD34C19D3D7910042FB1A /* MQParserResultTests.m */; };
+		2EFFD34F19D3D8640042FB1A /* MQMessageParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFD34E19D3D8640042FB1A /* MQMessageParserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EFFD31919D2864D0042FB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E938E2419D0001800A1C30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFFD30519D2864D0042FB1A;
+			remoteInfo = MQApp;
+		};
+		2EFFD33419D2F0950042FB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E938E2419D0001800A1C30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E938E2B19D0001800A1C30F;
+			remoteInfo = MQKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E37778B19E2655F00150A99 /* MQDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQDataArray.h; sourceTree = "<group>"; };
+		2E37778C19E2655F00150A99 /* MQDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQDataArray.m; sourceTree = "<group>"; };
+		2E37779119E2684700150A99 /* MQDataArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQDataArrayTests.m; sourceTree = "<group>"; };
+		2E37779319E2703700150A99 /* MQConnectHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQConnectHeader.h; sourceTree = "<group>"; };
+		2E37779419E2703700150A99 /* MQConnectHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnectHeader.m; sourceTree = "<group>"; };
+		2E37779919E2737000150A99 /* MQVariableHeader+Privates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MQVariableHeader+Privates.h"; sourceTree = "<group>"; };
+		2E37779F19E2747800150A99 /* MQConnectHeaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnectHeaderTests.m; sourceTree = "<group>"; };
+		2E3777A719E3A83B00150A99 /* MQMessageIDHeaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessageIDHeaderTests.m; sourceTree = "<group>"; };
+		2E3777A919E3A9AA00150A99 /* MQPubRelMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPubRelMessageTests.m; sourceTree = "<group>"; };
+		2E3777AB19E3B96600150A99 /* MQConnectPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQConnectPayload.h; sourceTree = "<group>"; };
+		2E3777AC19E3B96600150A99 /* MQConnectPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnectPayload.m; sourceTree = "<group>"; };
+		2E3777B119E3B98700150A99 /* MQPublishPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPublishPayload.h; sourceTree = "<group>"; };
+		2E3777B219E3B98700150A99 /* MQPublishPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPublishPayload.m; sourceTree = "<group>"; };
+		2E3777B719E3B9B500150A99 /* MQSubscribePayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQSubscribePayload.h; sourceTree = "<group>"; };
+		2E3777B819E3B9B500150A99 /* MQSubscribePayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSubscribePayload.m; sourceTree = "<group>"; };
+		2E3777BD19E3B9D900150A99 /* MQSubAckPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQSubAckPayload.h; sourceTree = "<group>"; };
+		2E3777BE19E3B9D900150A99 /* MQSubAckPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSubAckPayload.m; sourceTree = "<group>"; };
+		2E3777C319E3BA1500150A99 /* MQUnsubscribePayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUnsubscribePayload.h; sourceTree = "<group>"; };
+		2E3777C419E3BA1500150A99 /* MQUnsubscribePayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUnsubscribePayload.m; sourceTree = "<group>"; };
+		2E3777C919E3BC6C00150A99 /* MQPayload+Privates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MQPayload+Privates.h"; sourceTree = "<group>"; };
+		2E3777CF19E3BF5000150A99 /* MQConnectPayloadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnectPayloadTests.m; sourceTree = "<group>"; };
+		2E3777D119E3E0BF00150A99 /* MQPublishPayloadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPublishPayloadTests.m; sourceTree = "<group>"; };
+		2E3777D319E3E46400150A99 /* MQConnAckHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQConnAckHeader.h; sourceTree = "<group>"; };
+		2E3777D419E3E46400150A99 /* MQConnAckHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnAckHeader.m; sourceTree = "<group>"; };
+		2E3777D919E3E48800150A99 /* MQPublishHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPublishHeader.h; sourceTree = "<group>"; };
+		2E3777DA19E3E48800150A99 /* MQPublishHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPublishHeader.m; sourceTree = "<group>"; };
+		2E37780319E3E5C700150A99 /* MQMessageIDHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQMessageIDHeader.h; sourceTree = "<group>"; };
+		2E37780419E3E5C700150A99 /* MQMessageIDHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessageIDHeader.m; sourceTree = "<group>"; };
+		2E37780919E4BE0500150A99 /* MQConnAckHeaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnAckHeaderTests.m; sourceTree = "<group>"; };
+		2E37780B19E4C0F000150A99 /* MQConnAckMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnAckMessageTests.m; sourceTree = "<group>"; };
+		2E37780D19E4C53B00150A99 /* MQPublishHeaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPublishHeaderTests.m; sourceTree = "<group>"; };
+		2E37780F19E4CE7000150A99 /* MQMessageIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQMessageIDGenerator.h; sourceTree = "<group>"; };
+		2E37781019E4CE7000150A99 /* MQMessageIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessageIDGenerator.m; sourceTree = "<group>"; };
+		2E37781519E4D11D00150A99 /* MQMessageIDGeneratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessageIDGeneratorTests.m; sourceTree = "<group>"; };
+		2E39470119D52044002FADB9 /* MQPublishMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPublishMessageTests.m; sourceTree = "<group>"; };
+		2E39470319D56555002FADB9 /* MQSubscribeMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSubscribeMessageTests.m; sourceTree = "<group>"; };
+		2E39475219D91D71002FADB9 /* MQSubAckMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSubAckMessageTests.m; sourceTree = "<group>"; };
+		2E3A774119E50B2E00AFBA21 /* MQSubscribePayloadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSubscribePayloadTests.m; sourceTree = "<group>"; };
+		2E3A776E19E7EC1E00AFBA21 /* MQTTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTManager.h; sourceTree = "<group>"; };
+		2E3A776F19E7EC1E00AFBA21 /* MQTTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTManager.m; sourceTree = "<group>"; };
+		2E938E2C19D0001800A1C30F /* libMQKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMQKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E938E2F19D0001800A1C30F /* MQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQKit.h; sourceTree = "<group>"; };
+		2E938E3719D0001800A1C30F /* MQKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E938E3A19D0001800A1C30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E938E4319D0009600A1C30F /* MQFixedHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQFixedHeader.h; sourceTree = "<group>"; };
+		2E938E4419D0009600A1C30F /* MQFixedHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQFixedHeader.m; sourceTree = "<group>"; };
+		2E938E4819D0010700A1C30F /* MQTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQTypes.h; sourceTree = "<group>"; };
+		2E938E4919D006B500A1C30F /* MQFixedHeaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQFixedHeaderTests.m; sourceTree = "<group>"; };
+		2E938E4B19D0129D00A1C30F /* MQUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUtils.h; sourceTree = "<group>"; };
+		2E938E4C19D0129D00A1C30F /* MQUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUtils.m; sourceTree = "<group>"; };
+		2E938E5019D013AA00A1C30F /* MQUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUtilsTests.m; sourceTree = "<group>"; };
+		2E938E5219D014B800A1C30F /* MQVariableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQVariableHeader.h; sourceTree = "<group>"; };
+		2E938E5319D014B800A1C30F /* MQVariableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQVariableHeader.m; sourceTree = "<group>"; };
+		2E938E5719D0175E00A1C30F /* MQPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPayload.h; sourceTree = "<group>"; };
+		2E938E5819D0175E00A1C30F /* MQPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPayload.m; sourceTree = "<group>"; };
+		2E938E6719D01D9800A1C30F /* MQMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQMessage.h; sourceTree = "<group>"; };
+		2E938E6819D01D9800A1C30F /* MQMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessage.m; sourceTree = "<group>"; };
+		2E938E6C19D01DFA00A1C30F /* MQConnectMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQConnectMessage.h; sourceTree = "<group>"; };
+		2E938E6D19D01DFA00A1C30F /* MQConnectMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnectMessage.m; sourceTree = "<group>"; };
+		2E938E7119D01E5F00A1C30F /* MQConnAckMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQConnAckMessage.h; sourceTree = "<group>"; };
+		2E938E7219D01E5F00A1C30F /* MQConnAckMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnAckMessage.m; sourceTree = "<group>"; };
+		2E938E7619D01EAD00A1C30F /* MQPublishMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPublishMessage.h; sourceTree = "<group>"; };
+		2E938E7719D01EAD00A1C30F /* MQPublishMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPublishMessage.m; sourceTree = "<group>"; };
+		2E938E7B19D01EF600A1C30F /* MQPubAckMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPubAckMessage.h; sourceTree = "<group>"; };
+		2E938E7C19D01EF600A1C30F /* MQPubAckMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPubAckMessage.m; sourceTree = "<group>"; };
+		2E938E8019D01F3A00A1C30F /* MQPubRecMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPubRecMessage.h; sourceTree = "<group>"; };
+		2E938E8119D01F3A00A1C30F /* MQPubRecMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPubRecMessage.m; sourceTree = "<group>"; };
+		2E938E8519D01F7D00A1C30F /* MQPubRelMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPubRelMessage.h; sourceTree = "<group>"; };
+		2E938E8619D01F7D00A1C30F /* MQPubRelMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPubRelMessage.m; sourceTree = "<group>"; };
+		2E938E8A19D01FB800A1C30F /* MQPubCompMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPubCompMessage.h; sourceTree = "<group>"; };
+		2E938E8B19D01FB800A1C30F /* MQPubCompMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPubCompMessage.m; sourceTree = "<group>"; };
+		2E938E8F19D0200200A1C30F /* MQSubscribeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQSubscribeMessage.h; sourceTree = "<group>"; };
+		2E938E9019D0200200A1C30F /* MQSubscribeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSubscribeMessage.m; sourceTree = "<group>"; };
+		2E938E9419D0205100A1C30F /* MQSubAckMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQSubAckMessage.h; sourceTree = "<group>"; };
+		2E938E9519D0205100A1C30F /* MQSubAckMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSubAckMessage.m; sourceTree = "<group>"; };
+		2E938E9919D0209700A1C30F /* MQUnsubscribeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUnsubscribeMessage.h; sourceTree = "<group>"; };
+		2E938E9A19D0209700A1C30F /* MQUnsubscribeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUnsubscribeMessage.m; sourceTree = "<group>"; };
+		2E938E9E19D020DE00A1C30F /* MQUnsubAckMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUnsubAckMessage.h; sourceTree = "<group>"; };
+		2E938E9F19D020DE00A1C30F /* MQUnsubAckMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUnsubAckMessage.m; sourceTree = "<group>"; };
+		2E938EA419D0214700A1C30F /* MQPingReqMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPingReqMessage.h; sourceTree = "<group>"; };
+		2E938EA519D0214700A1C30F /* MQPingReqMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPingReqMessage.m; sourceTree = "<group>"; };
+		2E938EA919D021CD00A1C30F /* MQPingRespMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPingRespMessage.h; sourceTree = "<group>"; };
+		2E938EAA19D021CD00A1C30F /* MQPingRespMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPingRespMessage.m; sourceTree = "<group>"; };
+		2E938EAE19D0220C00A1C30F /* MQDisconnectMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQDisconnectMessage.h; sourceTree = "<group>"; };
+		2E938EAF19D0220C00A1C30F /* MQDisconnectMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQDisconnectMessage.m; sourceTree = "<group>"; };
+		2EA5755219D1049F000353A4 /* MQConnectFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQConnectFlags.h; sourceTree = "<group>"; };
+		2EA5755319D1049F000353A4 /* MQConnectFlags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnectFlags.m; sourceTree = "<group>"; };
+		2EA5755719D1066C000353A4 /* MQConnectFlagsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnectFlagsTests.m; sourceTree = "<group>"; };
+		2EA5755919D12F31000353A4 /* MQString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQString.h; sourceTree = "<group>"; };
+		2EA5755A19D12F31000353A4 /* MQString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQString.m; sourceTree = "<group>"; };
+		2EA5755E19D12F41000353A4 /* MQInt16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQInt16.h; sourceTree = "<group>"; };
+		2EA5755F19D12F41000353A4 /* MQInt16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQInt16.m; sourceTree = "<group>"; };
+		2EA5756319D12F4C000353A4 /* MQInt8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQInt8.h; sourceTree = "<group>"; };
+		2EA5756419D12F4C000353A4 /* MQInt8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQInt8.m; sourceTree = "<group>"; };
+		2EA5756919D132AE000353A4 /* MQDataRepresentable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQDataRepresentable.h; sourceTree = "<group>"; };
+		2EA5756E19D13323000353A4 /* MQDataTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQDataTypes.h; sourceTree = "<group>"; };
+		2EA5756F19D1387A000353A4 /* MQByteRepresentable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQByteRepresentable.h; sourceTree = "<group>"; };
+		2EA5757119D1392D000353A4 /* MQFixedHeaderField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQFixedHeaderField.h; sourceTree = "<group>"; };
+		2EA5757219D1392D000353A4 /* MQFixedHeaderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQFixedHeaderField.m; sourceTree = "<group>"; };
+		2EA5758219D14EEA000353A4 /* MQStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStringTests.m; sourceTree = "<group>"; };
+		2EA5758419D15022000353A4 /* MQInt16Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQInt16Tests.m; sourceTree = "<group>"; };
+		2EA5758619D151F7000353A4 /* MQInt8Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQInt8Tests.m; sourceTree = "<group>"; };
+		2EA5758819D154A4000353A4 /* MQVariableHeaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQVariableHeaderTests.m; sourceTree = "<group>"; };
+		2EA5758A19D15892000353A4 /* MQMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessageTests.m; sourceTree = "<group>"; };
+		2EA5758C19D159E2000353A4 /* MQConnectMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQConnectMessageTests.m; sourceTree = "<group>"; };
+		2EA5758E19D15B80000353A4 /* MQMessage+Privates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MQMessage+Privates.h"; sourceTree = "<group>"; };
+		2EA5758F19D15D60000353A4 /* MQPayloadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPayloadTests.m; sourceTree = "<group>"; };
+		2EA5759119D16CAC000353A4 /* MQPacketUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPacketUtils.h; sourceTree = "<group>"; };
+		2EA5759219D16CAC000353A4 /* MQPacketUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPacketUtils.m; sourceTree = "<group>"; };
+		2EA5759619D16DF4000353A4 /* MQPacketUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPacketUtilsTests.m; sourceTree = "<group>"; };
+		2EA5759819D16E4B000353A4 /* NSData+MQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MQAdditions.h"; sourceTree = "<group>"; };
+		2EA5759919D16E4B000353A4 /* NSData+MQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MQAdditions.m"; sourceTree = "<group>"; };
+		2EC763B619D93F5300275C02 /* MQDisconnectMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQDisconnectMessageTests.m; sourceTree = "<group>"; };
+		2EC763BA19D9432100275C02 /* MQPingReqMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPingReqMessageTests.m; sourceTree = "<group>"; };
+		2EC763BC19D9456E00275C02 /* MQPingRespMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPingRespMessageTests.m; sourceTree = "<group>"; };
+		2EC763BE19DA912600275C02 /* MQPubAckMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPubAckMessageTests.m; sourceTree = "<group>"; };
+		2EC763C019DA95BF00275C02 /* MQPubRecMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPubRecMessageTests.m; sourceTree = "<group>"; };
+		2EC763C219DA9C2500275C02 /* MQPubCompMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPubCompMessageTests.m; sourceTree = "<group>"; };
+		2EDC927419D0277000CEB074 /* MQPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQPacket.h; sourceTree = "<group>"; };
+		2EFFD30619D2864D0042FB1A /* MQApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFFD30919D2864D0042FB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFFD30A19D2864D0042FB1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EFFD30C19D2864D0042FB1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EFFD30D19D2864D0042FB1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EFFD30F19D2864D0042FB1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2EFFD31219D2864D0042FB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2EFFD31819D2864D0042FB1A /* MQAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFFD31D19D2864D0042FB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFFD31E19D2864D0042FB1A /* MQAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQAppTests.m; sourceTree = "<group>"; };
+		2EFFD32619D2877E0042FB1A /* MQMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQMessages.h; sourceTree = "<group>"; };
+		2EFFD32819D29BE70042FB1A /* NEStreamHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEStreamHandler.h; sourceTree = "<group>"; };
+		2EFFD32919D29BE70042FB1A /* NEStreamHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEStreamHandler.m; sourceTree = "<group>"; };
+		2EFFD32B19D2A57E0042FB1A /* NEBufferedStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEBufferedStream.h; sourceTree = "<group>"; };
+		2EFFD32C19D2A57E0042FB1A /* NEBufferedStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEBufferedStream.m; sourceTree = "<group>"; };
+		2EFFD32E19D2A8A80042FB1A /* NEInputBufferedStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEInputBufferedStream.h; sourceTree = "<group>"; };
+		2EFFD32F19D2A8A80042FB1A /* NEInputBufferedStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEInputBufferedStream.m; sourceTree = "<group>"; };
+		2EFFD33119D2AB940042FB1A /* NEOutputBufferedStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOutputBufferedStream.h; sourceTree = "<group>"; };
+		2EFFD33219D2AB940042FB1A /* NEOutputBufferedStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOutputBufferedStream.m; sourceTree = "<group>"; };
+		2EFFD33719D2F4E00042FB1A /* MQMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQMessageParser.h; sourceTree = "<group>"; };
+		2EFFD33819D2F4E00042FB1A /* MQMessageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessageParser.m; sourceTree = "<group>"; };
+		2EFFD33C19D2F55D0042FB1A /* MQParseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQParseResult.h; sourceTree = "<group>"; };
+		2EFFD33D19D2F55D0042FB1A /* MQParseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQParseResult.m; sourceTree = "<group>"; };
+		2EFFD34A19D3D60E0042FB1A /* MQParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQParser.h; sourceTree = "<group>"; };
+		2EFFD34B19D3D6C80042FB1A /* MQCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQCommon.h; sourceTree = "<group>"; };
+		2EFFD34C19D3D7910042FB1A /* MQParserResultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQParserResultTests.m; sourceTree = "<group>"; };
+		2EFFD34E19D3D8640042FB1A /* MQMessageParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessageParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E938E2919D0001800A1C30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E938E3419D0001800A1C30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFFD30319D2864D0042FB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFFD33619D2F0D40042FB1A /* libMQKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFFD31519D2864D0042FB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3A776D19E7EBFC00AFBA21 /* MQTTManager */ = {
+			isa = PBXGroup;
+			children = (
+				2E3A776E19E7EC1E00AFBA21 /* MQTTManager.h */,
+				2E3A776F19E7EC1E00AFBA21 /* MQTTManager.m */,
+			);
+			name = MQTTManager;
+			sourceTree = "<group>";
+		};
+		2E938E2319D0001800A1C30F = {
+			isa = PBXGroup;
+			children = (
+				2E938E2E19D0001800A1C30F /* MQKit */,
+				2E938E3819D0001800A1C30F /* MQKitTests */,
+				2EFFD30719D2864D0042FB1A /* MQApp */,
+				2EFFD31B19D2864D0042FB1A /* MQAppTests */,
+				2E938E2D19D0001800A1C30F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E938E2D19D0001800A1C30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E938E2C19D0001800A1C30F /* libMQKit.a */,
+				2E938E3719D0001800A1C30F /* MQKitTests.xctest */,
+				2EFFD30619D2864D0042FB1A /* MQApp.app */,
+				2EFFD31819D2864D0042FB1A /* MQAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E938E2E19D0001800A1C30F /* MQKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E938E2F19D0001800A1C30F /* MQKit.h */,
+				2EDC927319D0256700CEB074 /* Common */,
+				2EA5756819D12F53000353A4 /* DataTypes */,
+				2EDC927219D0255100CEB074 /* Packet */,
+				2E938EA319D020E700A1C30F /* Messages */,
+				2EFFD34819D3D5CD0042FB1A /* Parser */,
+			);
+			path = MQKit;
+			sourceTree = "<group>";
+		};
+		2E938E3819D0001800A1C30F /* MQKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD34619D3D5950042FB1A /* Common */,
+				2EFFD34419D3D5480042FB1A /* DataTypes */,
+				2EFFD34519D3D5690042FB1A /* Packet */,
+				2EFFD34719D3D5A30042FB1A /* Messages */,
+				2EFFD34919D3D5E00042FB1A /* Parser */,
+				2E938E3919D0001800A1C30F /* Supporting Files */,
+			);
+			path = MQKitTests;
+			sourceTree = "<group>";
+		};
+		2E938E3919D0001800A1C30F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E938E3A19D0001800A1C30F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E938EA319D020E700A1C30F /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD32619D2877E0042FB1A /* MQMessages.h */,
+				2E37780F19E4CE7000150A99 /* MQMessageIDGenerator.h */,
+				2E37781019E4CE7000150A99 /* MQMessageIDGenerator.m */,
+				2E938E6719D01D9800A1C30F /* MQMessage.h */,
+				2EA5758E19D15B80000353A4 /* MQMessage+Privates.h */,
+				2E938E6819D01D9800A1C30F /* MQMessage.m */,
+				2E938E6C19D01DFA00A1C30F /* MQConnectMessage.h */,
+				2E938E6D19D01DFA00A1C30F /* MQConnectMessage.m */,
+				2E938E7119D01E5F00A1C30F /* MQConnAckMessage.h */,
+				2E938E7219D01E5F00A1C30F /* MQConnAckMessage.m */,
+				2E938E7619D01EAD00A1C30F /* MQPublishMessage.h */,
+				2E938E7719D01EAD00A1C30F /* MQPublishMessage.m */,
+				2E938E7B19D01EF600A1C30F /* MQPubAckMessage.h */,
+				2E938E7C19D01EF600A1C30F /* MQPubAckMessage.m */,
+				2E938E8019D01F3A00A1C30F /* MQPubRecMessage.h */,
+				2E938E8119D01F3A00A1C30F /* MQPubRecMessage.m */,
+				2E938E8519D01F7D00A1C30F /* MQPubRelMessage.h */,
+				2E938E8619D01F7D00A1C30F /* MQPubRelMessage.m */,
+				2E938E8A19D01FB800A1C30F /* MQPubCompMessage.h */,
+				2E938E8B19D01FB800A1C30F /* MQPubCompMessage.m */,
+				2E938E8F19D0200200A1C30F /* MQSubscribeMessage.h */,
+				2E938E9019D0200200A1C30F /* MQSubscribeMessage.m */,
+				2E938E9419D0205100A1C30F /* MQSubAckMessage.h */,
+				2E938E9519D0205100A1C30F /* MQSubAckMessage.m */,
+				2E938E9919D0209700A1C30F /* MQUnsubscribeMessage.h */,
+				2E938E9A19D0209700A1C30F /* MQUnsubscribeMessage.m */,
+				2E938E9E19D020DE00A1C30F /* MQUnsubAckMessage.h */,
+				2E938E9F19D020DE00A1C30F /* MQUnsubAckMessage.m */,
+				2E938EA419D0214700A1C30F /* MQPingReqMessage.h */,
+				2E938EA519D0214700A1C30F /* MQPingReqMessage.m */,
+				2E938EA919D021CD00A1C30F /* MQPingRespMessage.h */,
+				2E938EAA19D021CD00A1C30F /* MQPingRespMessage.m */,
+				2E938EAE19D0220C00A1C30F /* MQDisconnectMessage.h */,
+				2E938EAF19D0220C00A1C30F /* MQDisconnectMessage.m */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		2EA5756819D12F53000353A4 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				2EA5756E19D13323000353A4 /* MQDataTypes.h */,
+				2E938E4819D0010700A1C30F /* MQTypes.h */,
+				2EA5756919D132AE000353A4 /* MQDataRepresentable.h */,
+				2EA5756F19D1387A000353A4 /* MQByteRepresentable.h */,
+				2EA5755919D12F31000353A4 /* MQString.h */,
+				2EA5755A19D12F31000353A4 /* MQString.m */,
+				2EA5755E19D12F41000353A4 /* MQInt16.h */,
+				2EA5755F19D12F41000353A4 /* MQInt16.m */,
+				2EA5756319D12F4C000353A4 /* MQInt8.h */,
+				2EA5756419D12F4C000353A4 /* MQInt8.m */,
+				2EA5755219D1049F000353A4 /* MQConnectFlags.h */,
+				2EA5755319D1049F000353A4 /* MQConnectFlags.m */,
+				2E37778B19E2655F00150A99 /* MQDataArray.h */,
+				2E37778C19E2655F00150A99 /* MQDataArray.m */,
+				2EA5757119D1392D000353A4 /* MQFixedHeaderField.h */,
+				2EA5757219D1392D000353A4 /* MQFixedHeaderField.m */,
+			);
+			name = DataTypes;
+			sourceTree = "<group>";
+		};
+		2EDC927219D0255100CEB074 /* Packet */ = {
+			isa = PBXGroup;
+			children = (
+				2EDC927419D0277000CEB074 /* MQPacket.h */,
+				2EA5759119D16CAC000353A4 /* MQPacketUtils.h */,
+				2EA5759219D16CAC000353A4 /* MQPacketUtils.m */,
+				2E938E4319D0009600A1C30F /* MQFixedHeader.h */,
+				2E938E4419D0009600A1C30F /* MQFixedHeader.m */,
+				2E938E5219D014B800A1C30F /* MQVariableHeader.h */,
+				2E938E5319D014B800A1C30F /* MQVariableHeader.m */,
+				2E37779919E2737000150A99 /* MQVariableHeader+Privates.h */,
+				2E37779319E2703700150A99 /* MQConnectHeader.h */,
+				2E37779419E2703700150A99 /* MQConnectHeader.m */,
+				2E3777D319E3E46400150A99 /* MQConnAckHeader.h */,
+				2E3777D419E3E46400150A99 /* MQConnAckHeader.m */,
+				2E3777D919E3E48800150A99 /* MQPublishHeader.h */,
+				2E3777DA19E3E48800150A99 /* MQPublishHeader.m */,
+				2E37780319E3E5C700150A99 /* MQMessageIDHeader.h */,
+				2E37780419E3E5C700150A99 /* MQMessageIDHeader.m */,
+				2E938E5719D0175E00A1C30F /* MQPayload.h */,
+				2E938E5819D0175E00A1C30F /* MQPayload.m */,
+				2E3777C919E3BC6C00150A99 /* MQPayload+Privates.h */,
+				2E3777AB19E3B96600150A99 /* MQConnectPayload.h */,
+				2E3777AC19E3B96600150A99 /* MQConnectPayload.m */,
+				2E3777B119E3B98700150A99 /* MQPublishPayload.h */,
+				2E3777B219E3B98700150A99 /* MQPublishPayload.m */,
+				2E3777B719E3B9B500150A99 /* MQSubscribePayload.h */,
+				2E3777B819E3B9B500150A99 /* MQSubscribePayload.m */,
+				2E3777BD19E3B9D900150A99 /* MQSubAckPayload.h */,
+				2E3777BE19E3B9D900150A99 /* MQSubAckPayload.m */,
+				2E3777C319E3BA1500150A99 /* MQUnsubscribePayload.h */,
+				2E3777C419E3BA1500150A99 /* MQUnsubscribePayload.m */,
+			);
+			name = Packet;
+			sourceTree = "<group>";
+		};
+		2EDC927319D0256700CEB074 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD34B19D3D6C80042FB1A /* MQCommon.h */,
+				2E938E4B19D0129D00A1C30F /* MQUtils.h */,
+				2E938E4C19D0129D00A1C30F /* MQUtils.m */,
+				2EA5759819D16E4B000353A4 /* NSData+MQAdditions.h */,
+				2EA5759919D16E4B000353A4 /* NSData+MQAdditions.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2EFFD30719D2864D0042FB1A /* MQApp */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD32719D29BC60042FB1A /* StreamHandler */,
+				2E3A776D19E7EBFC00AFBA21 /* MQTTManager */,
+				2EFFD30C19D2864D0042FB1A /* AppDelegate.h */,
+				2EFFD30D19D2864D0042FB1A /* AppDelegate.m */,
+				2EFFD30F19D2864D0042FB1A /* Images.xcassets */,
+				2EFFD31119D2864D0042FB1A /* MainMenu.xib */,
+				2EFFD30819D2864D0042FB1A /* Supporting Files */,
+			);
+			path = MQApp;
+			sourceTree = "<group>";
+		};
+		2EFFD30819D2864D0042FB1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD30919D2864D0042FB1A /* Info.plist */,
+				2EFFD30A19D2864D0042FB1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EFFD31B19D2864D0042FB1A /* MQAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD31E19D2864D0042FB1A /* MQAppTests.m */,
+				2EFFD31C19D2864D0042FB1A /* Supporting Files */,
+			);
+			path = MQAppTests;
+			sourceTree = "<group>";
+		};
+		2EFFD31C19D2864D0042FB1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD31D19D2864D0042FB1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EFFD32719D29BC60042FB1A /* StreamHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD32819D29BE70042FB1A /* NEStreamHandler.h */,
+				2EFFD32919D29BE70042FB1A /* NEStreamHandler.m */,
+				2EFFD32B19D2A57E0042FB1A /* NEBufferedStream.h */,
+				2EFFD32C19D2A57E0042FB1A /* NEBufferedStream.m */,
+				2EFFD32E19D2A8A80042FB1A /* NEInputBufferedStream.h */,
+				2EFFD32F19D2A8A80042FB1A /* NEInputBufferedStream.m */,
+				2EFFD33119D2AB940042FB1A /* NEOutputBufferedStream.h */,
+				2EFFD33219D2AB940042FB1A /* NEOutputBufferedStream.m */,
+			);
+			name = StreamHandler;
+			sourceTree = "<group>";
+		};
+		2EFFD34419D3D5480042FB1A /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				2EA5758219D14EEA000353A4 /* MQStringTests.m */,
+				2EA5758419D15022000353A4 /* MQInt16Tests.m */,
+				2EA5758619D151F7000353A4 /* MQInt8Tests.m */,
+				2EA5755719D1066C000353A4 /* MQConnectFlagsTests.m */,
+				2E37779119E2684700150A99 /* MQDataArrayTests.m */,
+			);
+			name = DataTypes;
+			sourceTree = "<group>";
+		};
+		2EFFD34519D3D5690042FB1A /* Packet */ = {
+			isa = PBXGroup;
+			children = (
+				2EA5759619D16DF4000353A4 /* MQPacketUtilsTests.m */,
+				2E938E4919D006B500A1C30F /* MQFixedHeaderTests.m */,
+				2EA5758819D154A4000353A4 /* MQVariableHeaderTests.m */,
+				2E37779F19E2747800150A99 /* MQConnectHeaderTests.m */,
+				2E37780919E4BE0500150A99 /* MQConnAckHeaderTests.m */,
+				2E37780D19E4C53B00150A99 /* MQPublishHeaderTests.m */,
+				2E3777A719E3A83B00150A99 /* MQMessageIDHeaderTests.m */,
+				2EA5758F19D15D60000353A4 /* MQPayloadTests.m */,
+				2E3777CF19E3BF5000150A99 /* MQConnectPayloadTests.m */,
+				2E3777D119E3E0BF00150A99 /* MQPublishPayloadTests.m */,
+				2E3A774119E50B2E00AFBA21 /* MQSubscribePayloadTests.m */,
+			);
+			name = Packet;
+			sourceTree = "<group>";
+		};
+		2EFFD34619D3D5950042FB1A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2E938E5019D013AA00A1C30F /* MQUtilsTests.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2EFFD34719D3D5A30042FB1A /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				2E37781519E4D11D00150A99 /* MQMessageIDGeneratorTests.m */,
+				2EA5758A19D15892000353A4 /* MQMessageTests.m */,
+				2EA5758C19D159E2000353A4 /* MQConnectMessageTests.m */,
+				2E37780B19E4C0F000150A99 /* MQConnAckMessageTests.m */,
+				2E39470119D52044002FADB9 /* MQPublishMessageTests.m */,
+				2EC763BE19DA912600275C02 /* MQPubAckMessageTests.m */,
+				2EC763C019DA95BF00275C02 /* MQPubRecMessageTests.m */,
+				2E3777A919E3A9AA00150A99 /* MQPubRelMessageTests.m */,
+				2EC763C219DA9C2500275C02 /* MQPubCompMessageTests.m */,
+				2E39470319D56555002FADB9 /* MQSubscribeMessageTests.m */,
+				2E39475219D91D71002FADB9 /* MQSubAckMessageTests.m */,
+				2EC763BA19D9432100275C02 /* MQPingReqMessageTests.m */,
+				2EC763BC19D9456E00275C02 /* MQPingRespMessageTests.m */,
+				2EC763B619D93F5300275C02 /* MQDisconnectMessageTests.m */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		2EFFD34819D3D5CD0042FB1A /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD34A19D3D60E0042FB1A /* MQParser.h */,
+				2EFFD33719D2F4E00042FB1A /* MQMessageParser.h */,
+				2EFFD33819D2F4E00042FB1A /* MQMessageParser.m */,
+				2EFFD33C19D2F55D0042FB1A /* MQParseResult.h */,
+				2EFFD33D19D2F55D0042FB1A /* MQParseResult.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		2EFFD34919D3D5E00042FB1A /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				2EFFD34C19D3D7910042FB1A /* MQParserResultTests.m */,
+				2EFFD34E19D3D8640042FB1A /* MQMessageParserTests.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E938E2A19D0001800A1C30F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA5759319D16CAC000353A4 /* MQPacketUtils.h in Headers */,
+				2E938EB019D0220C00A1C30F /* MQDisconnectMessage.h in Headers */,
+				2EA5757019D1387A000353A4 /* MQByteRepresentable.h in Headers */,
+				2E938E4519D0009600A1C30F /* MQFixedHeader.h in Headers */,
+				2E938E6E19D01DFA00A1C30F /* MQConnectMessage.h in Headers */,
+				2E938E7D19D01EF600A1C30F /* MQPubAckMessage.h in Headers */,
+				2E938E8219D01F3A00A1C30F /* MQPubRecMessage.h in Headers */,
+				2E37779B19E2737000150A99 /* MQVariableHeader+Privates.h in Headers */,
+				2EA5755B19D12F31000353A4 /* MQString.h in Headers */,
+				2E938E7319D01E5F00A1C30F /* MQConnAckMessage.h in Headers */,
+				2E3777B319E3B98700150A99 /* MQPublishPayload.h in Headers */,
+				2EA5757319D1392D000353A4 /* MQFixedHeaderField.h in Headers */,
+				2E3777BF19E3B9D900150A99 /* MQSubAckPayload.h in Headers */,
+				2EA5759A19D16E4B000353A4 /* NSData+MQAdditions.h in Headers */,
+				2EA5756519D12F4C000353A4 /* MQInt8.h in Headers */,
+				2E938E5919D0175E00A1C30F /* MQPayload.h in Headers */,
+				2E3777C519E3BA1500150A99 /* MQUnsubscribePayload.h in Headers */,
+				2E3777CB19E3BC6C00150A99 /* MQPayload+Privates.h in Headers */,
+				2E938E8719D01F7D00A1C30F /* MQPubRelMessage.h in Headers */,
+				2E938EAB19D021CD00A1C30F /* MQPingRespMessage.h in Headers */,
+				2E3777D519E3E46400150A99 /* MQConnAckHeader.h in Headers */,
+				2E938EA619D0214700A1C30F /* MQPingReqMessage.h in Headers */,
+				2E938E8C19D01FB800A1C30F /* MQPubCompMessage.h in Headers */,
+				2E938EA019D020DE00A1C30F /* MQUnsubAckMessage.h in Headers */,
+				2EFFD33E19D2F55D0042FB1A /* MQParseResult.h in Headers */,
+				2E938E7819D01EAD00A1C30F /* MQPublishMessage.h in Headers */,
+				2E3777AD19E3B96600150A99 /* MQConnectPayload.h in Headers */,
+				2E938E6919D01D9800A1C30F /* MQMessage.h in Headers */,
+				2E938E5419D014B800A1C30F /* MQVariableHeader.h in Headers */,
+				2E3777B919E3B9B500150A99 /* MQSubscribePayload.h in Headers */,
+				2EFFD33919D2F4E00042FB1A /* MQMessageParser.h in Headers */,
+				2E37779519E2703700150A99 /* MQConnectHeader.h in Headers */,
+				2E938E4D19D0129D00A1C30F /* MQUtils.h in Headers */,
+				2E3777DB19E3E48800150A99 /* MQPublishHeader.h in Headers */,
+				2EA5755419D1049F000353A4 /* MQConnectFlags.h in Headers */,
+				2E938E3019D0001800A1C30F /* MQKit.h in Headers */,
+				2E37778D19E2655F00150A99 /* MQDataArray.h in Headers */,
+				2E938E9119D0200200A1C30F /* MQSubscribeMessage.h in Headers */,
+				2E37780519E3E5C700150A99 /* MQMessageIDHeader.h in Headers */,
+				2E37781119E4CE7000150A99 /* MQMessageIDGenerator.h in Headers */,
+				2E938E9B19D0209700A1C30F /* MQUnsubscribeMessage.h in Headers */,
+				2E938E9619D0205100A1C30F /* MQSubAckMessage.h in Headers */,
+				2EA5756A19D132AE000353A4 /* MQDataRepresentable.h in Headers */,
+				2EA5756019D12F41000353A4 /* MQInt16.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E938E2B19D0001800A1C30F /* MQKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E938E3D19D0001800A1C30F /* Build configuration list for PBXNativeTarget "MQKit" */;
+			buildPhases = (
+				2E938E2819D0001800A1C30F /* Sources */,
+				2E938E2919D0001800A1C30F /* Frameworks */,
+				2E938E2A19D0001800A1C30F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQKit;
+			productName = MQKit;
+			productReference = 2E938E2C19D0001800A1C30F /* libMQKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2E938E3619D0001800A1C30F /* MQKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E938E4019D0001800A1C30F /* Build configuration list for PBXNativeTarget "MQKitTests" */;
+			buildPhases = (
+				2E938E3319D0001800A1C30F /* Sources */,
+				2E938E3419D0001800A1C30F /* Frameworks */,
+				2E938E3519D0001800A1C30F /* Resources */,
+				2EA5758119D14DFB000353A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQKitTests;
+			productName = MQKitTests;
+			productReference = 2E938E3719D0001800A1C30F /* MQKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EFFD30519D2864D0042FB1A /* MQApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFFD32419D2864D0042FB1A /* Build configuration list for PBXNativeTarget "MQApp" */;
+			buildPhases = (
+				2EFFD30219D2864D0042FB1A /* Sources */,
+				2EFFD30319D2864D0042FB1A /* Frameworks */,
+				2EFFD30419D2864D0042FB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EFFD33519D2F0950042FB1A /* PBXTargetDependency */,
+			);
+			name = MQApp;
+			productName = MQApp;
+			productReference = 2EFFD30619D2864D0042FB1A /* MQApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EFFD31719D2864D0042FB1A /* MQAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFFD32519D2864D0042FB1A /* Build configuration list for PBXNativeTarget "MQAppTests" */;
+			buildPhases = (
+				2EFFD31419D2864D0042FB1A /* Sources */,
+				2EFFD31519D2864D0042FB1A /* Frameworks */,
+				2EFFD31619D2864D0042FB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EFFD31A19D2864D0042FB1A /* PBXTargetDependency */,
+			);
+			name = MQAppTests;
+			productName = MQAppTests;
+			productReference = 2EFFD31819D2864D0042FB1A /* MQAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E938E2419D0001800A1C30F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "NHN Entertainment";
+				TargetAttributes = {
+					2E938E2B19D0001800A1C30F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2E938E3619D0001800A1C30F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2EFFD30519D2864D0042FB1A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2EFFD31719D2864D0042FB1A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2EFFD30519D2864D0042FB1A;
+					};
+				};
+			};
+			buildConfigurationList = 2E938E2719D0001800A1C30F /* Build configuration list for PBXProject "MQKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E938E2319D0001800A1C30F;
+			productRefGroup = 2E938E2D19D0001800A1C30F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E938E2B19D0001800A1C30F /* MQKit */,
+				2E938E3619D0001800A1C30F /* MQKitTests */,
+				2EFFD30519D2864D0042FB1A /* MQApp */,
+				2EFFD31719D2864D0042FB1A /* MQAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E938E3519D0001800A1C30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFFD30419D2864D0042FB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFFD31019D2864D0042FB1A /* Images.xcassets in Resources */,
+				2EFFD31319D2864D0042FB1A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFFD31619D2864D0042FB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EA5758119D14DFB000353A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "open -a CoverStory.app \"$OBJECT_FILE_DIR-normal/$CURRENT_ARCH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E938E2819D0001800A1C30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA5755519D1049F000353A4 /* MQConnectFlags.m in Sources */,
+				2E3777BA19E3B9B500150A99 /* MQSubscribePayload.m in Sources */,
+				2E938E8319D01F3A00A1C30F /* MQPubRecMessage.m in Sources */,
+				2EA5756119D12F41000353A4 /* MQInt16.m in Sources */,
+				2E3777D619E3E46400150A99 /* MQConnAckHeader.m in Sources */,
+				2E938E6A19D01D9800A1C30F /* MQMessage.m in Sources */,
+				2E938E7919D01EAD00A1C30F /* MQPublishMessage.m in Sources */,
+				2E3777C619E3BA1500150A99 /* MQUnsubscribePayload.m in Sources */,
+				2EA5756619D12F4C000353A4 /* MQInt8.m in Sources */,
+				2EFFD33A19D2F4E00042FB1A /* MQMessageParser.m in Sources */,
+				2E938E4619D0009600A1C30F /* MQFixedHeader.m in Sources */,
+				2E938E8D19D01FB800A1C30F /* MQPubCompMessage.m in Sources */,
+				2E37778E19E2655F00150A99 /* MQDataArray.m in Sources */,
+				2E37781219E4CE7000150A99 /* MQMessageIDGenerator.m in Sources */,
+				2E938EB119D0220C00A1C30F /* MQDisconnectMessage.m in Sources */,
+				2E938E7419D01E5F00A1C30F /* MQConnAckMessage.m in Sources */,
+				2E37779619E2703700150A99 /* MQConnectHeader.m in Sources */,
+				2E938E6F19D01DFA00A1C30F /* MQConnectMessage.m in Sources */,
+				2E938EA119D020DE00A1C30F /* MQUnsubAckMessage.m in Sources */,
+				2E938E4E19D0129D00A1C30F /* MQUtils.m in Sources */,
+				2E938E9C19D0209700A1C30F /* MQUnsubscribeMessage.m in Sources */,
+				2E938E8819D01F7D00A1C30F /* MQPubRelMessage.m in Sources */,
+				2E938E9219D0200200A1C30F /* MQSubscribeMessage.m in Sources */,
+				2E938E5A19D0175E00A1C30F /* MQPayload.m in Sources */,
+				2E3777C019E3B9D900150A99 /* MQSubAckPayload.m in Sources */,
+				2E3777DC19E3E48800150A99 /* MQPublishHeader.m in Sources */,
+				2E37780619E3E5C700150A99 /* MQMessageIDHeader.m in Sources */,
+				2EA5755C19D12F31000353A4 /* MQString.m in Sources */,
+				2EA5757419D1392D000353A4 /* MQFixedHeaderField.m in Sources */,
+				2E938EAC19D021CD00A1C30F /* MQPingRespMessage.m in Sources */,
+				2E938E7E19D01EF600A1C30F /* MQPubAckMessage.m in Sources */,
+				2EFFD33F19D2F55D0042FB1A /* MQParseResult.m in Sources */,
+				2E938EA719D0214700A1C30F /* MQPingReqMessage.m in Sources */,
+				2EA5759B19D16E4B000353A4 /* NSData+MQAdditions.m in Sources */,
+				2E938E9719D0205100A1C30F /* MQSubAckMessage.m in Sources */,
+				2E3777B419E3B98700150A99 /* MQPublishPayload.m in Sources */,
+				2EA5759419D16CAC000353A4 /* MQPacketUtils.m in Sources */,
+				2E938E5519D014B800A1C30F /* MQVariableHeader.m in Sources */,
+				2E3777AE19E3B96600150A99 /* MQConnectPayload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E938E3319D0001800A1C30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA5758919D154A4000353A4 /* MQVariableHeaderTests.m in Sources */,
+				2EA5758B19D15892000353A4 /* MQMessageTests.m in Sources */,
+				2EA5755619D1049F000353A4 /* MQConnectFlags.m in Sources */,
+				2E37779219E2684700150A99 /* MQDataArrayTests.m in Sources */,
+				2E37780A19E4BE0500150A99 /* MQConnAckHeaderTests.m in Sources */,
+				2E3777D219E3E0BF00150A99 /* MQPublishPayloadTests.m in Sources */,
+				2EA5759519D16CAC000353A4 /* MQPacketUtils.m in Sources */,
+				2EA5758D19D159E2000353A4 /* MQConnectMessageTests.m in Sources */,
+				2E3777D719E3E46400150A99 /* MQConnAckHeader.m in Sources */,
+				2E938E7F19D01EF600A1C30F /* MQPubAckMessage.m in Sources */,
+				2EA5758719D151F7000353A4 /* MQInt8Tests.m in Sources */,
+				2EA5758319D14EEA000353A4 /* MQStringTests.m in Sources */,
+				2E3777AA19E3A9AA00150A99 /* MQPubRelMessageTests.m in Sources */,
+				2EC763C319DA9C2500275C02 /* MQPubCompMessageTests.m in Sources */,
+				2E938E9319D0200200A1C30F /* MQSubscribeMessage.m in Sources */,
+				2EA5759C19D16E4B000353A4 /* NSData+MQAdditions.m in Sources */,
+				2EC763BB19D9432100275C02 /* MQPingReqMessageTests.m in Sources */,
+				2EA5759719D16DF4000353A4 /* MQPacketUtilsTests.m in Sources */,
+				2E3777A019E2747800150A99 /* MQConnectHeaderTests.m in Sources */,
+				2E3777C719E3BA1500150A99 /* MQUnsubscribePayload.m in Sources */,
+				2E39470419D56555002FADB9 /* MQSubscribeMessageTests.m in Sources */,
+				2E39470219D52045002FADB9 /* MQPublishMessageTests.m in Sources */,
+				2EA5759019D15D60000353A4 /* MQPayloadTests.m in Sources */,
+				2E938E9819D0205100A1C30F /* MQSubAckMessage.m in Sources */,
+				2E37781319E4CE7000150A99 /* MQMessageIDGenerator.m in Sources */,
+				2EFFD34019D2F55D0042FB1A /* MQParseResult.m in Sources */,
+				2E3777A819E3A83B00150A99 /* MQMessageIDHeaderTests.m in Sources */,
+				2EA5756719D12F4C000353A4 /* MQInt8.m in Sources */,
+				2E938EA819D0214700A1C30F /* MQPingReqMessage.m in Sources */,
+				2EA5757519D1392D000353A4 /* MQFixedHeaderField.m in Sources */,
+				2EA5758519D15022000353A4 /* MQInt16Tests.m in Sources */,
+				2E39475319D91D71002FADB9 /* MQSubAckMessageTests.m in Sources */,
+				2E938E5619D014B800A1C30F /* MQVariableHeader.m in Sources */,
+				2E938E7A19D01EAD00A1C30F /* MQPublishMessage.m in Sources */,
+				2E37780C19E4C0F000150A99 /* MQConnAckMessageTests.m in Sources */,
+				2E37778F19E2655F00150A99 /* MQDataArray.m in Sources */,
+				2EA5755819D1066C000353A4 /* MQConnectFlagsTests.m in Sources */,
+				2E938E4719D0009600A1C30F /* MQFixedHeader.m in Sources */,
+				2E938E9D19D0209700A1C30F /* MQUnsubscribeMessage.m in Sources */,
+				2E938E8919D01F7D00A1C30F /* MQPubRelMessage.m in Sources */,
+				2E938E5B19D0175E00A1C30F /* MQPayload.m in Sources */,
+				2E938E8E19D01FB800A1C30F /* MQPubCompMessage.m in Sources */,
+				2E938E7519D01E5F00A1C30F /* MQConnAckMessage.m in Sources */,
+				2E37779719E2703700150A99 /* MQConnectHeader.m in Sources */,
+				2EA5756219D12F41000353A4 /* MQInt16.m in Sources */,
+				2EC763C119DA95BF00275C02 /* MQPubRecMessageTests.m in Sources */,
+				2E3777D019E3BF5000150A99 /* MQConnectPayloadTests.m in Sources */,
+				2E37780E19E4C53B00150A99 /* MQPublishHeaderTests.m in Sources */,
+				2E938E8419D01F3A00A1C30F /* MQPubRecMessage.m in Sources */,
+				2EFFD34D19D3D7910042FB1A /* MQParserResultTests.m in Sources */,
+				2EC763B719D93F5300275C02 /* MQDisconnectMessageTests.m in Sources */,
+				2E938E6B19D01D9800A1C30F /* MQMessage.m in Sources */,
+				2E938EA219D020DE00A1C30F /* MQUnsubAckMessage.m in Sources */,
+				2E938E7019D01DFA00A1C30F /* MQConnectMessage.m in Sources */,
+				2EA5755D19D12F31000353A4 /* MQString.m in Sources */,
+				2EFFD34F19D3D8640042FB1A /* MQMessageParserTests.m in Sources */,
+				2E3777BB19E3B9B500150A99 /* MQSubscribePayload.m in Sources */,
+				2EC763BD19D9456E00275C02 /* MQPingRespMessageTests.m in Sources */,
+				2E938E4F19D0129D00A1C30F /* MQUtils.m in Sources */,
+				2E37781619E4D11D00150A99 /* MQMessageIDGeneratorTests.m in Sources */,
+				2E3777DD19E3E48800150A99 /* MQPublishHeader.m in Sources */,
+				2E938EAD19D021CD00A1C30F /* MQPingRespMessage.m in Sources */,
+				2E938E4A19D006B500A1C30F /* MQFixedHeaderTests.m in Sources */,
+				2E3777B519E3B98700150A99 /* MQPublishPayload.m in Sources */,
+				2E938E5119D013AA00A1C30F /* MQUtilsTests.m in Sources */,
+				2E3A774219E50B2E00AFBA21 /* MQSubscribePayloadTests.m in Sources */,
+				2EC763BF19DA912600275C02 /* MQPubAckMessageTests.m in Sources */,
+				2E3777C119E3B9D900150A99 /* MQSubAckPayload.m in Sources */,
+				2EFFD33B19D2F4E00042FB1A /* MQMessageParser.m in Sources */,
+				2E938EB219D0220C00A1C30F /* MQDisconnectMessage.m in Sources */,
+				2E37780719E3E5C700150A99 /* MQMessageIDHeader.m in Sources */,
+				2E3777AF19E3B96600150A99 /* MQConnectPayload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFFD30219D2864D0042FB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFFD33019D2A8A80042FB1A /* NEInputBufferedStream.m in Sources */,
+				2EFFD32D19D2A57E0042FB1A /* NEBufferedStream.m in Sources */,
+				2EFFD30E19D2864D0042FB1A /* AppDelegate.m in Sources */,
+				2EFFD33319D2AB940042FB1A /* NEOutputBufferedStream.m in Sources */,
+				2EFFD30B19D2864D0042FB1A /* main.m in Sources */,
+				2E3A777019E7EC1E00AFBA21 /* MQTTManager.m in Sources */,
+				2EFFD32A19D29BE70042FB1A /* NEStreamHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFFD31419D2864D0042FB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFFD31F19D2864D0042FB1A /* MQAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EFFD31A19D2864D0042FB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EFFD30519D2864D0042FB1A /* MQApp */;
+			targetProxy = 2EFFD31919D2864D0042FB1A /* PBXContainerItemProxy */;
+		};
+		2EFFD33519D2F0950042FB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E938E2B19D0001800A1C30F /* MQKit */;
+			targetProxy = 2EFFD33419D2F0950042FB1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EFFD31119D2864D0042FB1A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EFFD31219D2864D0042FB1A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E938E3B19D0001800A1C30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2E938E3C19D0001800A1C30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2E938E3E19D0001800A1C30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E938E3F19D0001800A1C30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E938E4119D0001800A1C30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MQKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E938E4219D0001800A1C30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = MQKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2EFFD32019D2864D0042FB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MQApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EFFD32119D2864D0042FB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MQApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2EFFD32219D2864D0042FB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MQAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQApp.app/Contents/MacOS/MQApp";
+			};
+			name = Debug;
+		};
+		2EFFD32319D2864D0042FB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MQAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQApp.app/Contents/MacOS/MQApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E938E2719D0001800A1C30F /* Build configuration list for PBXProject "MQKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E938E3B19D0001800A1C30F /* Debug */,
+				2E938E3C19D0001800A1C30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E938E3D19D0001800A1C30F /* Build configuration list for PBXNativeTarget "MQKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E938E3E19D0001800A1C30F /* Debug */,
+				2E938E3F19D0001800A1C30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E938E4019D0001800A1C30F /* Build configuration list for PBXNativeTarget "MQKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E938E4119D0001800A1C30F /* Debug */,
+				2E938E4219D0001800A1C30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFFD32419D2864D0042FB1A /* Build configuration list for PBXNativeTarget "MQApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFFD32019D2864D0042FB1A /* Debug */,
+				2EFFD32119D2864D0042FB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFFD32519D2864D0042FB1A /* Build configuration list for PBXNativeTarget "MQAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFFD32219D2864D0042FB1A /* Debug */,
+				2EFFD32319D2864D0042FB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E938E2419D0001800A1C30F /* Project object */;
+}
