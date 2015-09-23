@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6245"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -678,7 +679,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="591" height="573"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="591" height="573"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -731,12 +732,12 @@
                     </button>
                     <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5h-86-x0h">
                         <rect key="frame" x="26" y="142" width="545" height="212"/>
-                        <clipView key="contentView" ambiguous="YES" misplaced="YES" id="wVl-t0-LpS">
-                            <rect key="frame" x="1" y="1" width="223" height="133"/>
+                        <clipView key="contentView" ambiguous="YES" id="wVl-t0-LpS">
+                            <rect key="frame" x="1" y="1" width="543" height="210"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="eXJ-JO-VgE">
-                                    <rect key="frame" x="0.0" y="0.0" width="223" height="210"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="543" height="210"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <size key="minSize" width="543" height="210"/>
@@ -752,8 +753,8 @@
                             <rect key="frame" x="-100" y="-100" width="87" height="18"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="mNP-ox-bTg">
-                            <rect key="frame" x="224" y="1" width="15" height="133"/>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="mNP-ox-bTg">
+                            <rect key="frame" x="528" y="1" width="16" height="210"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                     </scrollView>
@@ -769,12 +770,12 @@
                     </button>
                     <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJS-2W-vd7">
                         <rect key="frame" x="26" y="19" width="478" height="115"/>
-                        <clipView key="contentView" ambiguous="YES" misplaced="YES" id="GII-bg-Mrn">
-                            <rect key="frame" x="1" y="1" width="238" height="133"/>
+                        <clipView key="contentView" ambiguous="YES" id="GII-bg-Mrn">
+                            <rect key="frame" x="1" y="1" width="476" height="113"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="LEE-w5-09l">
-                                    <rect key="frame" x="0.0" y="0.0" width="238" height="133"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="476" height="113"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <size key="minSize" width="476" height="113"/>
@@ -790,8 +791,8 @@
                             <rect key="frame" x="-100" y="-100" width="87" height="18"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="InY-xb-f5E">
-                            <rect key="frame" x="223" y="1" width="16" height="133"/>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="InY-xb-f5E">
+                            <rect key="frame" x="461" y="1" width="16" height="113"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                     </scrollView>
